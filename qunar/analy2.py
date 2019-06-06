@@ -16,7 +16,7 @@ for i in arr:
     total_arr.append(result)
 
 color = 'red', 'orange', 'green', 'blue', 'gray', 'goldenrod' # 各类别颜色
-explode = (0.2, 0, 0, 0, 0, 0)  # 各类别的偏移半径
+explode = (0.1, 0, 0, 0, 0, 0)  # 各类别的偏移半径
 
 # 绘制饼状图
 pie = plt.pie(total_arr, colors=color, explode=explode, labels=name_arr, shadow=True, autopct='%1.1f%%')
